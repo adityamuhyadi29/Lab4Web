@@ -1,26 +1,35 @@
-# Lab4Web
+# CSS Layout
 
-## Praktikum 4: CSS Layout
+Praktikum 4 merupakan latihan pemrograman web yang membahas pembuatan tata letak (*layout*) halaman website menggunakan HTML5 dan CSS. Pada praktikum ini, dipelajari konsep **Box Element, CSS Float, Clearfix**, serta penggunaan elemen semantik HTML5 untuk membangun layout website sederhana yang terstruktur dan mudah dipahami.
 
-Praktikum 4 merupakan latihan pemrograman web yang membahas pembuatan tata letak halaman website menggunakan HTML5 dan CSS. Praktikum ini mempelajari konsep **Box Element, CSS Float, Clearfix**, serta penggunaan elemen semantik HTML5 untuk membangun layout website sederhana.
-
-## 1. Box Element
-
-Box Element merupakan konsep dasar CSS yang menganggap setiap elemen HTML sebagai sebuah kotak. Box Model terdiri dari empat bagian, yaitu Content, Padding, Border, dan Margin.
-
-### Result 1 — Box Element
+## Result
 
 ![Gambar 1](screenshot/ss1.png)
 
-Hasil tampilan Box Element setelah diberikan style CSS.
+Gambar 1 menunjukkan tampilan awal halaman sebelum diberikan styling CSS.
 
-### Result 2 — Box Element dengan CSS
+Hasil setelah diberikan style CSS:
+
+## Result
 
 ![Gambar 2](screenshot/ss2.png)
 
-### CSS Float Property
+Gambar 2 menunjukkan perubahan tampilan halaman setelah CSS diterapkan, seperti pengaturan jarak, ukuran, dan posisi elemen.
 
-CSS Float digunakan untuk mengatur posisi elemen agar berada di sisi kiri atau kanan elemen lainnya. Properti ini dapat digunakan untuk membantu menyusun elemen dalam layout website.
+## 1. Box Element
+
+Box Element merupakan konsep dasar CSS yang menjelaskan bahwa setiap elemen HTML tersusun atas beberapa bagian, yaitu:
+
+- **Content:** bagian yang berisi teks, gambar, atau konten lainnya.
+- **Padding:** jarak antara content dan border.
+- **Border:** garis tepi yang mengelilingi elemen.
+- **Margin:** jarak antara elemen dengan elemen lainnya.
+
+Konsep ini digunakan untuk mengatur ukuran, jarak, dan posisi elemen agar tata letak halaman terlihat lebih rapi.
+
+## 2. CSS Float Property
+
+Properti `float` digunakan untuk mengatur posisi elemen agar berada di sisi kiri atau kanan container. Properti ini dapat digunakan untuk menyusun beberapa elemen secara berdampingan.
 
 Contoh penggunaan CSS Float:
 
@@ -29,25 +38,15 @@ div {
     float: left;
     padding: 10px;
 }
-
-.div1 {
-    background: red;
-}
-
-.div2 {
-    background: yellow;
-}
-
-.div3 {
-    background: green;
-}
 ```
 
-### Clearfix
+Pada contoh tersebut, elemen `div` ditempatkan di sisi kiri dan diberikan jarak bagian dalam sebesar 10 piksel.
 
-Properti `clear` digunakan untuk mengatur posisi elemen agar tidak berada di samping elemen yang menggunakan `float`.
+## 3. Clearfix
 
-Contoh penggunaan CSS Clear:
+Clearfix digunakan untuk mengatasi masalah tata letak ketika elemen di dalam container menggunakan `float`, sehingga container tetap dapat menyesuaikan tinggi elemen di dalamnya. Sementara itu, properti `clear` digunakan untuk mencegah elemen berikutnya berada di samping elemen yang di-*float*.
+
+Contoh kode CSS:
 
 ```css
 .div4 {
@@ -57,100 +56,78 @@ Contoh penggunaan CSS Clear:
 }
 ```
 
-### Result 3 — Float dan Clear
+Pada contoh tersebut, elemen `.div4` memiliki latar belakang biru, tidak menggunakan `float`, dan ditempatkan setelah elemen yang menggunakan `float` di kedua sisi.
+
+## Result
 
 ![Gambar 3](screenshot/ss3.png)
 
-Hasil percobaan penggunaan properti Float dan Clear pada elemen `div`.
+Gambar 3 menunjukkan hasil penerapan Box Element, Float, dan Clear pada tata letak halaman.
 
-## 2. Membuat Layout Sederhana
+# Membuat Layout Sederhana
 
-Pada tahap ini, dibuat layout website sederhana menggunakan HTML5 Semantic Elements, seperti `header`, `nav`, `section`, `article`, `aside`, dan `footer`.
+Pada tahap ini, dilakukan pembuatan layout website sederhana menggunakan HTML5 dan CSS. Halaman dibagi menjadi beberapa bagian, seperti header, navigasi, hero panel, widget, konten utama, artikel, dan footer.
 
-### Result 4 — Struktur Layout
+## Result
 
 ![Gambar 4](screenshot/ss4.png)
 
-Hasil tampilan awal halaman `home.html` sebelum diberikan style CSS.
+Gambar 4 menunjukkan tampilan halaman `home.html` sebelum atau pada tahap awal penerapan styling CSS.
 
-### Result 5 — Navigasi
+Hasil setelah diberikan style CSS pada halaman `home.html`:
+
+## Result
 
 ![Gambar 5](screenshot/ss5.png)
 
-Hasil tampilan navigasi setelah diberikan style CSS, meliputi warna latar belakang, warna teks, padding, dan efek hover.
+Gambar 5 memperlihatkan tampilan navigasi setelah diberikan styling CSS. Pengaturan ini bertujuan agar menu terlihat lebih rapi dan memudahkan pengguna berpindah antarhalaman.
 
-### Membuat Hero Panel
-
-Hero panel merupakan bagian halaman yang menampilkan judul utama, deskripsi singkat, dan tombol untuk mengarahkan pengguna ke informasi lebih lanjut.
-
-### Result 6 — Hero Panel HTML
+## Result
 
 ![Gambar 6](screenshot/ss6.png)
 
-Tampilan hero panel setelah ditambahkan elemen HTML.
+Gambar 6 menunjukkan proses pembuatan panel hero. Panel hero merupakan bagian utama yang biasanya digunakan untuk menampilkan judul, deskripsi, gambar, atau informasi penting pada halaman website.
 
-### Result 7 — Hero Panel dengan CSS
+## Result
 
 ![Gambar 7](screenshot/ss7.png)
 
-Hasil hero panel setelah diberikan style CSS untuk mengatur warna latar belakang, jarak, ukuran teks, dan tata letak.
+Gambar 7 memperlihatkan panel hero setelah diberikan styling CSS, seperti pengaturan warna, ukuran, jarak, dan tata letak agar tampilannya lebih menarik.
 
-### Membuat Sidebar Widget
-
-Sidebar digunakan untuk menampilkan informasi tambahan, seperti daftar tautan dan widget teks.
-
-### Result 8 — Sidebar Widget
+## Result
 
 ![Gambar 8](screenshot/ss8.png)
 
-Hasil tampilan sidebar widget setelah diberikan style CSS.
+Gambar 8 menunjukkan tampilan widget setelah diberikan styling CSS. Widget digunakan untuk menampilkan informasi atau elemen tambahan yang mendukung konten utama website.
 
-### Mengatur Footer
-
-Footer merupakan bagian bawah halaman website yang biasanya berisi informasi hak cipta atau informasi tambahan lainnya.
-
-### Result 9 — Footer
+## Result
 
 ![Gambar 9](screenshot/ss9.png)
 
-Hasil tampilan footer setelah diberikan style CSS.
+Gambar 9 menunjukkan tampilan footer setelah diatur menggunakan CSS. Footer merupakan bagian bawah halaman yang dapat berisi informasi hak cipta, identitas website, atau informasi pendukung lainnya.
 
-### Menambahkan Main Content
-
-Main content merupakan bagian utama website yang berisi informasi, gambar, judul, deskripsi, dan tombol detail. Pada tahap ini, elemen konten disusun menggunakan CSS Float dan Box Model.
-
-### Result 10 — Main Content
+## Result
 
 ![Gambar 10](screenshot/ss10.png)
 
-Hasil main content setelah ditambahkan beberapa elemen berupa gambar berbentuk lingkaran, judul, deskripsi, dan tombol yang telah diberikan style CSS.
+Gambar 10 memperlihatkan hasil styling pada bagian konten utama (*main content*). Pada bagian ini, ditambahkan elemen-elemen berbentuk lingkaran yang diatur menggunakan CSS untuk memperjelas tampilan dan susunan konten.
 
-### Menambahkan Artikel
-
-Artikel ditambahkan pada bagian konten utama untuk menampilkan informasi berupa judul, gambar, dan paragraf. Properti CSS Float digunakan untuk mengatur posisi gambar terhadap teks.
-
-### Result 11 — Halaman Home Lengkap
+## Result
 
 ![Gambar 11](screenshot/ss11.png)
 
-Hasil tampilan keseluruhan halaman `home.html` setelah ditambahkan main content, artikel, sidebar, navigasi, dan footer.
+Gambar 11 menunjukkan tampilan keseluruhan halaman `home.html` setelah penambahan artikel dan penerapan styling CSS. Setiap bagian halaman telah disusun untuk membentuk layout website yang lebih terstruktur.
 
-## 3. Dokumentasi Hasil Praktikum
-
-### Result 12
+## Result
 
 ![Gambar 12](screenshot/ss12.png)
 
-Dokumentasi tambahan hasil praktikum CSS Layout.
-
-### Result 13
-
 ![Gambar 13](screenshot/ss13.png)
 
-Dokumentasi tambahan hasil akhir praktikum.
+Gambar 12 dan Gambar 13 merupakan hasil akhir praktikum yang memperlihatkan tampilan halaman website setelah seluruh elemen HTML5 dan styling CSS diterapkan.
 
-## Kesimpulan
+# Kesimpulan
 
-Melalui praktikum ini, mahasiswa dapat memahami konsep dasar pembuatan layout website menggunakan HTML5 dan CSS. Materi yang dipelajari meliputi Box Element, CSS Float, Clear, serta penggunaan elemen semantik HTML5.
+Melalui Praktikum 4, dapat dipahami bahwa HTML5 berperan dalam membentuk struktur halaman website, sedangkan CSS digunakan untuk mengatur tampilan dan tata letaknya. Konsep Box Element membantu mengatur ukuran dan jarak elemen, CSS Float digunakan untuk mengatur posisi elemen, dan Clearfix membantu menangani tata letak yang melibatkan elemen *float*.
 
-Hasil praktikum berupa website sederhana yang terdiri dari header, navigasi, hero panel, main content, sidebar widget, artikel, dan footer. Dengan memahami materi ini, mahasiswa diharapkan mampu membuat tata letak website yang terstruktur, rapi, dan mudah dikembangkan.
+Dengan menerapkan konsep-konsep tersebut, halaman website sederhana dapat dibuat dengan struktur yang lebih teratur, tampilan yang lebih menarik, dan pembagian bagian halaman yang jelas.
