@@ -205,3 +205,82 @@ box img {
 .entry .right-img {
     float: right;
 }
+
+
+/* Layout form kontak */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+    background: #fff;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 4px rgba(52, 152, 219, 0.3);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+#contactForm button {
+    cursor: pointer;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+#formStatus {
+    margin-top: 15px;
+    color: #217a43;
+    font-weight: bold;
+}
+
+/* Penyesuaian tampilan mobile */
+@media screen and (max-width: 768px) {
+    #container {
+        width: 100%;
+    }
+
+    #Wrapper {
+        display: block;
+    }
+
+    #main,
+    #sidebar {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        max-width: 100%;
+    }
+}
