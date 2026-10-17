@@ -77,3 +77,9 @@ Menambahkan Style CSS pada panel hero
 ## Result
 
 ![Gambar 8](screenshot/ss8.png)
+
+Menampilkan hasil widget yang sudah di beri style css nya
+
+## Result
+
+![Gambar 9](screenshot/ss9.png)
