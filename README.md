@@ -47,3 +47,9 @@ Menggunakan properti clear untuk mengatur posisi elemen setelah elemen yang meng
 ## Result 
 
 ![Gambar 3](screenshot/ss3.png)
+
+# Membuat Layout Sederhana
+
+## Result
+
+![Gambar 4](screenshot/ss4.png)
