@@ -6,3 +6,9 @@ Praktikum 4 merupakan latihan pemrograman web yang membahas pembuatan tata letak
 ## Result
 
 ![Gambar 1](screenshot/ss1.png)
+
+Hasil setelah di beri style css
+
+## Result
+
+![Gambar 2](screenshot/ss2.png)
