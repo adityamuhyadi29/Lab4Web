@@ -71,3 +71,9 @@ Membuat panel hero
 ## Result
 
 ![Gambar 7](screenshot/ss7.png)
+
+Menambahkan Style CSS pada panel hero
+
+## Result
+
+![Gambar 8](screenshot/ss8.png)
