@@ -95,3 +95,10 @@ Hasil Main konten yang sudah di beri elemen elemen seperti lingkaran dan diberi 
 ## Result
 
 ![Gambar 11](screenshot/ss11.png)
+
+Hasil tampilan halaman home.html keseluruhan setelah di beri tambahan artikel dan stylnya
+
+## Result
+
+![Gambar 12](screenshot/ss12.png)
+![Gambar 13](screenshot/ss13.png)
