@@ -89,3 +89,9 @@ Menampilkan gambar footer yang sudah di atur
 ## Result
 
 ![Gambar 10](screenshot/ss10.png)
+
+Hasil Main konten yang sudah di beri elemen elemen seperti lingkaran dan diberi style cssnya
+
+## Result
+
+![Gambar 11](screenshot/ss11.png)
