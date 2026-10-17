@@ -59,3 +59,9 @@ Hasil setelah di beri style css pada halaman home.html
 ## Result
 
 ![Gambar 5](screenshot/ss5.png)
+
+Hasil gambar setelah navigasi di beri style css
+
+## Result
+
+![Gambar 6](screenshot/ss6.png)
