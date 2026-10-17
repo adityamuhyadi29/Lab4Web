@@ -53,3 +53,9 @@ Menggunakan properti clear untuk mengatur posisi elemen setelah elemen yang meng
 ## Result
 
 ![Gambar 4](screenshot/ss4.png)
+
+Hasil setelah di beri style css pada halaman home.html
+
+## Result
+
+![Gambar 5](screenshot/ss5.png)
