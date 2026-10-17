@@ -83,3 +83,9 @@ Menampilkan hasil widget yang sudah di beri style css nya
 ## Result
 
 ![Gambar 9](screenshot/ss9.png)
+
+Menampilkan gambar footer yang sudah di atur 
+
+## Result
+
+![Gambar 10](screenshot/ss10.png)
