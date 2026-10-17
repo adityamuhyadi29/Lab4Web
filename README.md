@@ -12,3 +12,38 @@ Hasil setelah di beri style css
 ## Result
 
 ![Gambar 2](screenshot/ss2.png)
+
+1. Box Element
+
+Mempelajari struktur kotak pada elemen HTML yang terdiri dari:
+
+Content: isi elemen.
+
+Padding: jarak antara isi dan border.
+
+Border: garis tepi elemen.
+
+Margin: jarak antara elemen dengan elemen lainnya.
+
+2. CSS Float Property
+
+Menggunakan properti float untuk mengatur posisi elemen, seperti:
+
+div {
+    float: left;
+    padding: 10px;
+}
+
+3. Clearfix
+
+Menggunakan properti clear untuk mengatur posisi elemen setelah elemen yang menggunakan float.
+
+.div4 {
+    background-color: blue;
+    clear: both;
+    float: none;
+}
+
+## Result 
+
+![Gambar 3](screenshot/ss3.png)
