@@ -65,3 +65,9 @@ Hasil gambar setelah navigasi di beri style css
 ## Result
 
 ![Gambar 6](screenshot/ss6.png)
+
+Membuat panel hero 
+
+## Result
+
+![Gambar 7](screenshot/ss7.png)
